@@ -4,17 +4,49 @@
 About me
 </title>
 <style>
-h1
-{
-background-color:#90ffde;
+
+#container {
+  height: 90%;
+  width: 100%;
+  display: flex;
 }
+#leftPane {
+  width: 25%;
+  height: 90%;
+  background-color:#90ffde;
+  border-style:solid;
+  border-color: white;
+}
+#content {
+  width: 75%;
+  border-style:solid;
+  border-color: white;
+  background-color: #69daff;
+}
+#Nav{
+  height: 10%;
+  background-color:#456bff;
+}
+
 </style>
+ <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 </head>
     <link rel="stylesheet" href="https://naikom111.github.io/assets/css/style.css?v=c408e9f585a8454e94c5c243b577abb1efc10647">
 <body>
+<section class="main-content">
+<div id="Nav">
+<h1 id="about-me"><font color="#e3e9ff">About Me</font></h1>
+</div>
+<div id="container">
 
-    <section class="main-content">
-        <h1 id="about-me">About Me</h1>
+  <div id="leftPane">
+    Left Side Menu
+  </div>
+
+  <div id="content">
+    Random Content
+  </div>
+</div>
       </section>
 </body>
 </html>
